@@ -17,6 +17,7 @@ class HomePage extends Component {
   fetchTrendingMovies = async () => {
     try {
       const response = await fetchAPI.fetchTrending();
+
       if (response.ok) {
         const data = await response.json();
         const { results } = data;

@@ -4,7 +4,7 @@ const Preloader = () => (
   <Loader
     className="loader"
     type="ThreeDots"
-    color="#ffb6c1"
+    color="#63DF33"
     height={100}
     width={100}
   />

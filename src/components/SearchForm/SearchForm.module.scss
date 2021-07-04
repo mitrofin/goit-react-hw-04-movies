@@ -1,5 +1,5 @@
 .formWrapper {
-  background-color: lightpink;
+  background-color: rgb(99, 223, 51);
 }
 
 .SearchForm {
@@ -7,7 +7,7 @@
   align-items: center;
   width: 100%;
   max-width: 350px;
-  background-color: lightpink;
+  background-color: rgb(99, 223, 51);
   border-radius: 3px;
   overflow: hidden;
 }
@@ -21,7 +21,7 @@
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.6;
+  opacity: 0.4;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   outline: none;
@@ -44,6 +44,9 @@
 }
 
 .SearchFormInput {
+  background-color: rgb(206, 238, 194);
+  opacity: 0.8;
+
   display: inline-block;
   width: 100%;
   font: inherit;
